@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from flask import Flask, render_template, request
 import pickle
 from random import randint
@@ -109,4 +111,4 @@ def insertData():
     return render_template('insertData.html')
 
 initialization()
-app.run(debug=1, host="0.0.0.0", port=80)
+app.run(debug=0, host="0.0.0.0", port=80)
