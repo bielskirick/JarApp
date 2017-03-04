@@ -62,17 +62,37 @@ def newLocation():
 def randomRestuarant():
     global data
     indices = [i for i, x in enumerate(data['type']) if x.upper() == 'R']
+    if len(indices) < 0:
+        return "DataStore Empty. Add Some Locations."
     loc = randint(0,len(indices)-1)
-    print str(data['name'][indices[loc]])
-    return "Restaurant Works"
+
+    name = str(data['name'][indices[loc]])
+    price = str(data['price'][indices[loc]])
+    neighborhood = str(data['neighborhood'][indices[loc]])
+    region = str(data['region'][indices[loc]])
+    res  =  str(data['reservation'][indices[loc]])
+    locType = str(data['type'][indices[loc]])
+    time = str(data['time'][indices[loc]])
+
+    return render_template('randomLocation.html', name=name, price=price, neighborhood=neighborhood, region=region, res=res, locType=locType, time=time)
 
 @app.route('/randomActivity')
 def randomActivity():
     global data
     indices = [i for i, x in enumerate(data['type']) if x.upper() == 'A']
+    if len(indices) < 0:
+        return "DataStore Empty. Add Some Locations."
     loc = randint(0,len(indices)-1)
-    print str(data['name'][indices[loc]])
-    return "Activity Works"
+
+    name = str(data['name'][indices[loc]])
+    price = str(data['price'][indices[loc]])
+    neighborhood = str(data['neighborhood'][indices[loc]])
+    region = str(data['region'][indices[loc]])
+    res  =  str(data['reservation'][indices[loc]])
+    locType = str(data['type'][indices[loc]])
+    time = str(data['time'][indices[loc]])
+
+    return render_template('randomLocation.html', name=name, price=price, neighborhood=neighborhood, region=region, res=res, locType=locType, time=time)
 
 @app.route('/insertData', methods = ['POST'])
 def insertData():

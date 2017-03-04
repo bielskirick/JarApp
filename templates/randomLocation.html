@@ -27,30 +27,34 @@
 
 <div class="jumbotron text-center">
   <h1>Virtual Jar</h1>
-  <p>Enter a new location below!</p>
+  <p>Here's Your Choice!</p>
 </div>
 
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <h3>Locations</h3>
-        <form action="/insertData" method="post">
-          <p>Name</p>
-          <p><input type="text" name="name"></p>
-          <p>Price Range (1-5)</p>
-          <p><input type="text" name="price"></p>
-          <p>Neighborhood</p>
-          <p><input type="text" name="neighborhood"></p>
-          <p>Region</p>
-          <p><input type="text" name="region"></p>
-          <p>Reservation (Y/N)</p>
-          <p><input type="text" name="reservation"></p>
-          <p>Type (R/A for Restaurant or Activity)</p>
-          <p><input type="text" name="type"></p>
-          <p>Time There (minutes)</p>
-          <p><input type="text" name="time"></p>
-          <p><input type="submit" name="my-form" value="Send"></p>
-        </form>
+      <h3>
+        <p><b>Name</b></p>
+        <p>{{ name }}</p>
+        </br>
+        <p><b>Price ($-$$$$$)</b></p>
+        <p>{{ price }}</p>
+        </br>
+        <p><b>Neighborhood</b></p>
+        <p>{{ neighborhood }}</p>
+        </br>
+        <p><b>Region</b></p>
+        <p>{{ region }}</p>
+        </br>
+        <p><b>Reservation Required</b></p>
+        <p>{{ res }}</p>
+        </br>
+        <p><b>Type (Restaurant/Activity)</b></p>
+        <p>{{ type }}</p>
+        </br>
+        <p><b>Time There (mins)</b></p>
+        <p>{{ time }}</p>
+      </h3>
     </div>
   </div>
 </div>
