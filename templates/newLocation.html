@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    #buttons {
+      border-radius: 25px;
+      background: black;
+      color: white;
+      padding: 20px;
+      width: 200px;
+      height: 50px;
+      text-align: center;
+      text-transform: uppercase;
+  }
+    a{
+      color:white;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Virtual Jar</h1>
+  <p>Choose an activity below!</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Restuarants</h3>
+        <form action="/insertData" method="post">
+          <p>Name</p>
+          <p><input type="text" name="name"></p>
+          <p>Price Range (1-5)</p>
+          <p><input type="text" name="price"></p>
+          <p>Neighborhood</p>
+          <p><input type="text" name="neighborhood"></p>
+          <p>Region</p>
+          <p><input type="text" name="region"></p>
+          <p>Reservation (Y/N)</p>
+          <p><input type="text" name="reservation"></p>
+          <p>Type (R/A for Restaurant or Activity)</p>
+          <p><input type="text" name="type"></p>
+          <p>Time There (minutes)</p>
+          <p><input type="text" name="time"></p>
+          <p><input type="submit" name="my-form" value="Send"></p>
+        </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

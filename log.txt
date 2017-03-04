@@ -1,0 +1,136 @@
+test1
+test2
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Saving Data
+Saving Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Saving Data
+Saving Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Saving Data
+Saving Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Saving Data
+Saving Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Saving Data
+Saving Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Could not find datastore, will create a new file.
+Initialization Complete
+Saving Data
+Saving Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
+Saving Data
+Saving Complete
+Initializing.
+Initialization Complete
+Initializing.
+Initialization Complete
